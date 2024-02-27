@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --color-black: #1c1c1c;
+   /* --color-grey: #ececec; */
+    --color-white: #f7f7f7;
+
+    --tipo-normal: #A8A878;
+    --tipo-fuego: #F08030;
+    --tipo-agua: #6890F0;
+    --tipo-planta: #78C850;
+    --tipo-electrico: #F8D030;
+    --tipo-hielo: #98D8D8;
+    --tipo-lucha: #C03028;
+    --tipo-veneno: #A040A0;
+    --tipo-tierra: #E0C068;
+    --tipo-volador: #A090F0;
+    --tipo-psiquico: #F85888;
+    --tipo-bicho: #A8B820;
+    --tipo-roca: #B8A038;
+    --tipo-fantasma: #705898;
+    --tipo-siniestro: #705848;
+    --tipo-dragon: #7038F8;
+    --tipo-acero: #B8B8D0;
+    --tipo-hada: #F0B6BC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--color-black);
+    font-family: 'Rubik', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+}
+
+.normal {
+    background-color: var(--tipo-normal);
+    color: var(--color-black);
+}
+
+.fuego {
+    background-color: var(--tipo-fuego);
+    color: var(--color-black);
+}
+
+.agua {
+    background-color: var(--tipo-agua);
+    color: var(--color-white);
+}
+
+.planta {
+    background-color: var(--tipo-planta);
+    color: var(--color-black);
+}
+
+.electrico {
+    background-color: var(--tipo-electrico);
+    color: var(--color-black);
+}
+
+.hielo {
+    background-color: var(--tipo-hielo);
+    color: var(--color-black);
+}
+
+.lucha {
+    background-color: var(--tipo-lucha);
+    color: var(--color-white);
+}
+
+.veneno {
+    background-color: var(--tipo-veneno);
+    color: var(--color-white);
+}
+
+.tierra {
+    background-color: var(--tipo-tierra);
+    color: var(--color-black);
+}
+
+.volador {
+    background-color: var(--tipo-volador);
+    color: var(--color-black);
+}
+
+.psiquico {
+    background-color: var(--tipo-psiquico);
+    color: var(--color-black);
+}
+
+.bicho {
+    background-color: var(--tipo-bicho);
+    color: var(--color-black);
+}
+
+.roca {
+    background-color: var(--tipo-normal);
+    color: var(--color-black);
+}
+
+.fantasma {
+    background-color: var(--tipo-fantasma);
+    color: var(--color-white);
+}
+
+.siniestro {
+    background-color: var(--tipo-siniestro);
+    color: var(--color-white);
+}
+
+.dragon {
+    background-color: var(--tipo-dragon);
+    color: var(--color-white);
+}
+
+.acero {
+    background-color: var(--tipo-acero);
+    color: var(--color-black);
+}
+
+.hada {
+    background-color: var(--tipo-hada);
+    color: var(--color-black);
+}
+
